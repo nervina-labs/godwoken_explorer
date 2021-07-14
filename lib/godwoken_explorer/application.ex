@@ -19,13 +19,13 @@ defmodule GodwokenExplorer.Application do
       GodwokenExplorerWeb.Endpoint,
       {Registry, keys: :duplicate, name: Registry.ChainEvents, id: Registry.ChainEvents},
       {RealtimeEventHandler, name: RealtimeEventHandler},
-      GodwokenExplorer.Chain.Events.Listener,
-      GodwokenIndexer.Server,
-      GodwokenExplorer.Counters.AccountsCounter,
-      GodwokenExplorer.Chain.Cache.BlockCount,
-      GodwokenExplorer.Chain.Cache.TransactionCount,
-      GodwokenExplorer.Chain.Cache.Blocks,
-      GodwokenExplorer.Chain.Cache.Transactions
+      #GodwokenExplorer.Chain.Events.Listener,
+      #GodwokenIndexer.Server,
+      #GodwokenExplorer.Counters.AccountsCounter,
+      #GodwokenExplorer.Chain.Cache.BlockCount,
+      #GodwokenExplorer.Chain.Cache.TransactionCount,
+      #GodwokenExplorer.Chain.Cache.Blocks,
+      #GodwokenExplorer.Chain.Cache.Transactions
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
